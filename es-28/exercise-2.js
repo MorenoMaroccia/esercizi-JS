@@ -1,12 +1,16 @@
 const order = {
-  // city:{
-  //   name:"verona"
-  // }
-  
+  customer:{
+    address:{
+      city:""
+
+    }
+  }
 };
 
 
-
-if (order.city?.name ) {
+if(order?.customer?.address && !order.customer.address.city){
   console.log('City is required');
+}else{
+  console.log('correct')
 };
+
