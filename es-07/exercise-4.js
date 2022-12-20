@@ -1,12 +1,9 @@
+
 function nicknameMap(persons) {
-  for(let i = 0; i < persons.length;i++){
-  array.push(persons[i].name + persons[i].age)
-  
-  }
- 
-return array
+let person = persons.map((el) => el.name + el.age);
+return person
 }
-let array=[];
+
 const persons = [
   { name: 'Paul', age: 16 },
   { name: 'George', age: 17 },
