@@ -9,10 +9,9 @@ const person = {
   age: 25
 }; 
 
-// person.age = 15;
-// let {id, firstName, lastName, age} = person;
+person.age = 17
+const {age} = person
 
-let new person = {id1:1,firstName1:'mario', lastName1:'rossi', age1:15};
 
 console.log(person)
 console.log(isAdult(person));
