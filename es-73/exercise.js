@@ -5,5 +5,5 @@ function printAsyncName(callBack, name1='name') {
     setTimeout(() => console.log(name1),2000);
 }
 
-printAsyncName(('Hello'), ('Mario'))
+printAsyncName('ciao', 'Mario')
 
